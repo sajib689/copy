@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #005289;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 350px;
+    height: auto;
+    margin: 200px auto;
+    text-align: center;
+}
+h3{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 30px;
+}
+input[type="text"] {
+    height: 4vh;
+    outline: none;
+    border: 1px solid #005289;
+    border-radius: 5px;
+}
+.btn{
+    padding: 5px 5px;
+    border: #005289;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
